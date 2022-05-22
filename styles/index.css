@@ -1,0 +1,43 @@
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #container{
+            height: 70px;
+            width: 100%;
+            margin: auto;
+            background-color: rgb(23, 21, 68);
+        }
+        #box{
+            display: flex;
+            gap: 30px;
+            justify-content: right;
+           
+        }
+        div>p{
+            margin-top: 25px;
+            color: white;
+            cursor: pointer;
+        }
+        div>button{
+            margin: 15px 20px ;
+            background-color:rgb(48, 183, 110) ;
+            border: none;
+            color: white;
+            height: 40px;
+            width: 100px;
+            border-radius: 3px;
+            font-size: 15px;
+            cursor: pointer;
+           
+        }
+        div>button:hover{
+            background-color: rgb(101, 211, 153);
+        } 
+        #slideshow{
+        margin: auto;
+         width: 97%;
+         height: 400px;
+        }
+    

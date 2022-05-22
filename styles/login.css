@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    height: 70px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(23, 21, 68);
+}
+#box{
+    display: flex;
+    gap: 30px;
+    justify-content: right;
+   
+}
+div>p{
+    margin-top: 25px;
+    color: white;
+    cursor: pointer;
+}
+div>button{
+    margin: 15px 20px ;
+    background-color:rgb(48, 183, 110) ;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+   
+}
+#login-form-div{
+    height: 200px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin:40px 0px 0px 500px;
+}
+h1{
+    text-align: center;
+}
+#form{
+margin-top: 20px;
+}
+.info{
+margin: 10px 0px 0px 70px;
+height: 30px;
+width: 160px;
+}
+#button2{
+color: white;
+margin: 15px 0px 0px 100px;
+background-color: rgb(48, 183, 110);
+border: none;
+height: 30px;
+width: 90px;
+border-radius: 3px;
+}
